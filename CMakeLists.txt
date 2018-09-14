@@ -16,3 +16,8 @@ swipl_examples(demo/foo.cpp demo/Makefile demo/pb-vector.proto
 	       demo/vector_demo.pl)
 
 test_libs(protobufs)
+
+pkg_doc(protobufs
+	SECTION
+	    protobufs_overview.md
+	    SOURCE protobufs.pl protobufspl.tex)
